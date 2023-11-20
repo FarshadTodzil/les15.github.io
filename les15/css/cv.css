@@ -1,0 +1,88 @@
+body {
+    background-color: #ECE5FF;
+} @media only screen and (max-width: 600px) {
+body { background-color: #D3D3D3;    
+}
+}
+body {
+    background-color: #ECE5FF;
+} @media screen and (min-width: 600px) {
+    body { background-color: #C0C0C0;
+}    
+}
+body {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #F5F5F5;
+}
+header {
+    text-shadow: 2px 2px 1px red;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    min-height: fit-content;
+    border-radius: 8px;
+    margin: 0px 10px;    
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
+ul a {
+    color: white;
+    text-decoration: none;
+}
+li:hover {
+    color: black;
+    background-color: blue;
+}
+#werkervaring  {
+    width: 75%;
+    min-height: 400px;
+    padding: 50px;
+    margin: 3% 5% 2% 7%;
+    border: 15px solid white;
+    box-shadow: inset 13px 10px 15px red;
+    background-color: aqua;
+    border-radius: 6px;
+}
+#educatie       {
+    width: 75%;
+    min-height: 400px;
+    padding: 50px;
+    margin: 3% 5% 2% 7%;
+    border: 15px solid white;
+    box-shadow: inset 13px 10px 15px red;
+    background-color: aqua;
+    border-radius: 6px;
+}
+table {
+    width: 100%;
+}
+tr  {
+    padding: 5px 2px 30px 2px;
+}
+tr:hover {
+    background-color: lightgreen;
+}
+th {
+    font-weight: bold; 
+}
+th, td {
+    border-bottom: 3px groove red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.werkervaring.educatie {
+    border-collapse: collapse;
+}
+footer {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin: 0px 10px;
+    color: white;
+}    

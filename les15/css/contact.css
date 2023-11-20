@@ -1,0 +1,93 @@
+body {
+    background-color: #ECE5FF;
+} @media only screen and (max-width: 600px) {
+body { background-color: #D3D3D3;  
+}
+}
+body {
+    background-color: #ECE5FF;
+} @media screen and (min-width: 600px) {
+    body { background-color: #C0C0C0;
+}    
+}
+body {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #F5F5F5;
+}
+header {
+    text-shadow: 2px 2px 1px red;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    min-height: fit-content;
+    border-radius: 8px;
+    margin: 0px 10px;    
+}
+li {
+    display: inline-block;
+    text-align: center;
+}
+ul a {
+    color: white;
+    text-decoration: none;
+}
+li:hover {
+    color: black;
+    background-color: blue;
+}
+#form {
+    width: 47%;
+    min-height: 400px;
+    padding: 50px;
+    margin: 3% 25% 3% 23%;
+    border: 15px solid white;
+    box-shadow: inset 13px 10px 15px red;
+    background-color: aqua;
+    border-radius: 6px;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea, button {
+    display: block;
+    width: 60%;
+    min-height: 5%;
+    margin: 3% 20%;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    box-shadow: inset 1px 1px 3px blue;
+}
+textarea {
+    height: 100px;
+    padding: 5px 4px;
+}
+button:active {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 3px 3px 5px red;
+}
+button:hover {
+    background-color: blue;
+    color: black;
+    border-radius: 4px; 
+    box-shadow: inset 3px 3px 5px red;
+}
+.contact {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.vragen {
+    padding: 0px 30px 30px 20px;
+}
+footer {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    margin: 0px 10px;
+    color: white;
+}   
